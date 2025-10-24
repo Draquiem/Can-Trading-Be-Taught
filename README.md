@@ -26,33 +26,30 @@ In this repo, I explore why trading can not be taught in the context of systemat
      - Continuously optimize strategy (compare policy 1 of blackjack vs policy 2 in this context)
 
  2.) Learning to Play Poker and Trading
-    - Now that we've covered optimal vs suboptimal policy function, you will have a better understanding, mathematically, of why nobody can teach you how to trade.
-    - Pi* is the optimal policy function (NOT AN EASY TASK) We are unable to throw ML at to solve this issue (this is due to the need to define everything for an AI)
-    - Graph portrays how AI is insufficient. Although it does better than a naive strategy, it is unable to transact based on the strategy of counting cards.
-      - overfitting noise, time-variable dynamics, etc..
-    - It will be easier for us to impose a policy on our own OR LEARN IT OURSELVES FROM EXPERIENCE, our goal is to find pi* (no set of rules around this beyond experience)
-    - Not something somebody can hand you, it is literally how you go about making decisions in the face of uncertainty to maximize your expected value, learn over time
+ 
+ - Now that we've covered optimal vs suboptimal policy function, you will have a better understanding, mathematically, of why nobody can teach you how to trade.
+  - Pi* is the optimal policy function (NOT AN EASY TASK) We are unable to throw ML at to solve this issue (this is due to the need to define everything for an AI)
+- Graph portrays how AI is insufficient. Although it does better than a naive strategy, it is unable to transact based on the strategy of counting cards.
+  - overfitting noise, time-variable dynamics, etc..
+- It will be easier for us to impose a policy on our own OR LEARN IT OURSELVES FROM EXPERIENCE, our goal is to find pi* (no set of rules around this beyond experience)
+- Not something somebody can hand you, it is literally how you go about making decisions in the face of uncertainty to maximize your expected value, learn over time
     
-  Example: Hand of Poker (Pocket Aces)
-    - Game of incomplete information, thus we try to act in optimal way; if they were complete random, the Pros would not have any basis for long term wealth generating potential that transacts with positive EV
-    - Pi* is learned after an incredible # of hands
-      - Raw probability of understanding through experience 
-    - Even if you have an 80% chance of winning, your decisions, bet selection, game direction, and body language, will be different AND be perceived differently depending on the type of players you play against
-      - This is why this Pi* is learned on your own; nobody will be able to quantify and create a system for you to follow
-    - The only thing we can learn from the Pros are things we can do, when combined together, that will influence our edge in a positive way
-    - It is very important to experience and understand the system that you are working with
-      - How are you physically/mentally feeling? Did you lose the previous hand? Who are you playing against? Etc... All these variables MASSIVELY change how you play, even with the same system. 
+Example: Hand of Poker (Pocket Aces)
+- Game of incomplete information, thus we try to act in optimal way; if they were complete random, the Pros would not have any basis for long term wealth generating potential that transacts with positive EV
+- Pi* is learned after an incredible # of hands
+- It is very important to experience and understand the system that you are working with
+  - How are you physically/mentally feeling? Did you lose the previous hand? Who are you playing against? Etc... All these variables MASSIVELY change how you play, even with the same system. 
 
-  Example: Trading Options (Selling a Staddle)
-    - Trader A sells straddle, goal is to maximize EV, we see A continuously updating his Pi* but acting optimally
-      - What is the current macroeconomics? What is the current regime? How are people feeling about this company? What is the administration like? Is there more fear or greed? Etc...
-    - Trader B doesn't give a sh*t, and is just selling straddles in hopes of it being a good strategy; he is not vetting out this strategy 
-    - We must think about the space in policy function, EV, and how we are making these decisions to optimize our EV
-    - THERE IS NO SYSTEM THAT INDEFINITELY PRINTS MONEY, this is a statistical impossibility
+Example: Trading Options (Selling a Staddle)
+- Trader A sells straddle, goal is to maximize EV, we see A continuously updating his Pi* but acting optimally
+  - What is the current macroeconomics? What is the current regime? How are people feeling about this company? What is the administration like? Is there more fear or greed? Etc...
+- Trader B doesn't give a sh*t, and is just selling straddles in hopes of it being a good strategy; he is not vetting out this strategy 
+- We must think about the space in policy function, EV, and how we are making these decisions to optimize our EV
+  - THERE IS NO SYSTEM THAT INDEFINITELY PRINTS MONEY, this is a statistical impossibility
 
-  What the Pros CAN Teach You?
-    - Tight Bankroll
-    - Ergodic Theory
-    - No need to always transact
-    - Cut losses early
-    - Check your emotions
+What the Pros CAN Teach You?
+- Tight Bankroll
+- Ergodic Theory
+- No need to always transact
+- Cut losses early
+- Check your emotions
